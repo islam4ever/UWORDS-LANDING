@@ -15,7 +15,7 @@ html {
 
 body {
   background-color: #000;
-  outline: 1rem solid red;
+  /* outline: 1rem solid red; */
   overflow-x: hidden;
 }
 
