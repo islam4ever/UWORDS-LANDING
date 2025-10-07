@@ -69,7 +69,13 @@ body {
 .hero {
   width: 100%;
   border-radius: 3rem;
-  background: url(./assets/imgs/Сетка.webp) #f2ece7;
+  background: linear-gradient(
+      rgba(242, 236, 231, 0.7),
+      rgba(242, 236, 231, 0.7)
+    ),
+    url(./assets/imgs/Сетка.webp);
+  background-size: cover;
+  background-position: center;
   margin-top: 3rem;
 }
 
@@ -172,6 +178,7 @@ body {
   .hero {
     width: 95%;
     margin-left: 2.5rem;
+
   }
 
   .texts_on_top h1 {
@@ -183,8 +190,59 @@ body {
   }
 
   .img_on_two_sided_top {
-    transform: translateX(55rem) translateY(-18rem);
+    transform: translateX(55rem) translateY(-20rem);
     width: 55rem;
     height: 20rem;
   }
+
+  .two_side_h1{
+    transform: translateX(3rem) translateY(14rem);
+    max-width: 110rem;
+    font-size: 4rem;
+  }
+
+  .first_card_in_hero{
+    width: 90%;
+    margin-left: 6rem;
+    height: 170rem;
+    display: flex;
+    flex-direction: column;
+    margin-top: 25rem;
+  }
+  .texts_in_hero_card{
+    margin-left: 0;
+  }
+
+  .texts_in_hero_card h1{
+    text-align: start;
+    max-width: 45rem;
+    font-size: 5rem;
+    margin-left: 0;
+    text-align: start;
+    margin-left: -39rem;
+    
+  }
+
+  .img_in_hero{
+    width: 40rem;
+    height: 50rem;
+    margin-top: -30rem;
+    margin-left: 60rem;
+  }
+
+  .hhhh1{
+    transform: translateY(-16rem);
+    margin-bottom: 0;
+  }
+
+  .aaaa1{
+    margin-top: -70rem;
+    margin-bottom: 10rem;
+  }
+  .img_path_hero{
+    width: 22rem;
+    height: 14rem;
+    transform: translateY(-160.7rem) translateX(-44rem);
+  }
+  
 }
