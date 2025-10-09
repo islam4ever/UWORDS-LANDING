@@ -156,6 +156,236 @@ body {
   border-radius: 4rem;
 }
 
+
+
+.ordered_imgs{
+  display: flex;
+  flex-direction: column;
+}
+
+.zero_order, .first_order, .second_order, .third_order{
+  display: flex;
+}
+
+.first_img{
+  width: calc(1200/1440*44rem);
+  height: calc(1200/1440*56rem);
+  margin-left: 10rem;
+}
+
+.zero_img{
+  width: calc(1200/1440*68.4rem);
+  height: calc(1200/1440*47.5rem);
+  margin-top: 5rem;
+  margin-left: 8rem;
+}
+
+.scribble{
+  width: calc(1200/1440*14.1rem);
+  height: calc(1200/1440*14.1rem);
+  margin-top: 15rem;
+  margin-left: 35rem;
+}
+
+
+.second_img{
+    width: calc(1200/1440*68.4rem);
+  height: calc(1200/1440*47.5rem);
+  margin-top: 5rem;
+  margin-left: 20rem;
+}
+
+
+.second_order_img{
+  margin-left: 3rem;
+}
+
+.Scribble1{
+  width: calc(1200/1440*14.1rem);
+  height: calc(1200/1440*14.1rem);
+  margin-top: 20rem;
+  margin-left: 35rem;
+}
+
+
+.Scribble2{
+  width: calc(1200/1440*14.1rem);
+  height: calc(1200/1440*14.1rem);
+  margin-top: 15rem;
+  margin-left: 30rem;
+}
+
+.third_order_img{
+  width: calc(1200/1440*68.4rem);
+  height: calc(1200/1440*47.5rem);
+  margin-top: 5rem;
+  margin-left: 25rem;
+}
+
+
+.h1_in_form_section{
+  font-size: calc(1200/1440*12.8rem);
+  color: #F2ECE7;
+  font-family: Uwords;
+  margin-left: 13rem;
+  text-transform: uppercase;
+  margin-top: 7rem;
+  margin-bottom: 7rem;
+}
+
+
+
+
+.anketa{
+  color: #DDFF53 !important;
+}
+
+
+.form_in_section{
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.form_in_section input{
+  width: calc(1200/1440*62rem);
+  height: calc(1200/1440*6.2rem);
+  background-color: #F2ECE7;
+  margin-left: 3rem;
+  border: none;
+  outline: none;
+  text-indent: 2rem;
+  border-radius: 3rem;
+  font-size: 2rem;
+}
+
+.attach_img{
+  width: calc(1200/1440*62rem);
+  height: calc(1200/1440*19.3rem);
+  margin-left: 3rem;
+}
+
+
+.send_btn{
+  background-color: #ffffff61;
+  color: #f2ece7b5;
+  width: 15rem;
+  height: 3rem;
+  border-radius: 3rem;
+  border: none;
+  margin-left: 20rem;
+}
+
+
+.first_text_in_form{
+  color: #F2ECE799;
+  font-family: Uwords;
+  font-size: calc(1200/1440*2.4rem);
+  max-width: 35rem;
+  margin-left: 7rem;
+  margin-bottom: 5rem;
+}
+
+
+.img_in_right_form{
+  width: calc(1200/1440*145rem);
+  height: calc(1200/1440*120rem);
+}
+
+
+
+.badges1111{
+  display: flex;
+  gap: 8rem;
+  margin-top: 5rem;
+}
+
+
+.badges1111 img{
+  width: calc(1200/1440*40rem);
+  height: calc(1200/1440*11.8rem);
+}
+
+.playmarket_badge{
+  margin-left: 5rem;
+}
+
+.footer_title{
+  color: transparent;
+  -webkit-text-stroke: 0.1rem #F2ECE7;
+  font-size: calc(1200/1440*12rem);
+  font-family: Uwords;
+  margin-top: 3rem;
+  margin-left: 5rem;
+  transform: translateY(12rem);
+
+}
+
+.footer_img{
+  width: calc(1200/1440*152rem);
+
+}
+
+.footer_bust{
+  width: calc(1200/1440*28rem);
+  height: calc(1200/1440*35rem);
+  /* transform: translateX(12rem); */
+  margin-left: 2rem;
+  transform: translateY(-29.5rem);
+}
+
+
+
+.badges2{
+  display: flex;
+  gap: 2rem;
+  transform: translateX(85rem) translateY(-82rem);
+}
+
+.badges2 img{
+  color: #DDFF53;
+  width: calc(1200/1440*8rem);
+  height: calc(1200/1440*8rem);
+}
+
+.options_in_footer{
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+}
+.options_in_footer a{
+  text-decoration: none;
+  color: #FFFFFFCC;
+  font-size: calc(1200/1440*2.4rem);
+  font-family: Uwords;
+  margin-left: 63rem;
+}
+.footer_link{
+  margin-top: -72rem;
+}
+
+.options2_in_footer{
+  display: flex;
+  gap: 4rem;
+  flex-direction: column;
+}
+
+.options2_in_footer a{
+  text-decoration: none;
+  color: #FFFFFFCC;
+  font-size: calc(1200/1440*2.4rem);
+  font-family: Uwords;
+  margin-left: 93rem;
+
+}
+
+.footer_link2{
+  margin-top: -72rem;
+}
+
+
+
+
 @media only screen and (max-width: 500px) {
   html {
     font-size: calc(100vw / (1280 / 10));
@@ -245,4 +475,79 @@ body {
     transform: translateY(-160.7rem) translateX(-44rem);
   }
   
+
+  .ordered_imgs{
+    display: flex;
+    flex-direction: column;
+
+  }
+  .zero_img{
+    width: 55rem;
+    height: 35rem;
+  }
+
+  .second_img{
+    width: 55rem;
+    height: 35rem;
+  }
+
+  .second_order_img{
+    width: 55rem;
+    height: 55rem;
+  }
+
+  .third_order_img{
+    width: 55rem;
+    height: 35rem;
+    transform: translateX(-2rem);
+  }
+
+  .h1_in_form_section{
+    max-width: 15rem;
+    font-size: 20rem;
+    margin-left: 5rem;
+  }
+
+  .first_text_in_form{
+    font-size: 5rem;
+    max-width: 120rem;
+  }
+
+  .form_in_section input{
+    width: 95%;
+    height: 12rem;
+    border-radius: 5rem;
+    font-size: 4rem;
+    text-indent: 4rem;
+  }
+  .form_in_section input::placeholder{
+    font-size: 4rem;
+  }
+
+  .attach_img{
+    width: 95%;
+    height: 35rem;
+  }
+
+  .send_btn{
+    width: 40rem;
+    height: 10rem;
+    margin-left: 45rem;
+  }
+  .badges1111{
+    display: flex;
+    flex-direction: column;
+    gap: 6rem;
+    margin-top: 10rem;
+    margin-left: 35rem;
+  }
+
+  .badges1111 img{
+    width: 60rem;
+    height: 20rem;
+  }
+
+  .playmarket_badge{
+    margin-left: 0;
+  }
 }
