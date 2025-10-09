@@ -11,6 +11,7 @@
 
 html {
   font-size: calc(100vw / (1280 / 10));
+  /* outline: 1rem solid red; */
 }
 
 body {
@@ -481,31 +482,53 @@ body {
     flex-direction: column;
 
   }
+
+  .first_img{
+    margin-left: 0;
+  }
   .zero_img{
     width: 55rem;
     height: 35rem;
+    margin-left: 2rem;
+  }
+
+  .scribble{
+    margin-left: 10rem;
   }
 
   .second_img{
     width: 55rem;
     height: 35rem;
+    margin-left: 7rem;
   }
 
   .second_order_img{
     width: 55rem;
     height: 55rem;
+    margin-top: 10rem;
   }
+
+  .Scribble1{
+    margin-left: 20rem;
+    margin-top: 30rem;
+  }
+
 
   .third_order_img{
     width: 55rem;
     height: 35rem;
     transform: translateX(-2rem);
+    margin-left: 17rem;
   }
 
+
+  .Scribble2{
+    margin-left: 1rem;
+  }
   .h1_in_form_section{
     max-width: 15rem;
     font-size: 20rem;
-    margin-left: 5rem;
+    margin-left: 0rem;
   }
 
   .first_text_in_form{
@@ -549,5 +572,12 @@ body {
 
   .playmarket_badge{
     margin-left: 0;
+  }
+  
+  .badges2{
+    width: 0;
+  }
+  footer{
+    height: 32vh;
   }
 }
