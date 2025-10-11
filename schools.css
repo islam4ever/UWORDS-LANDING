@@ -464,6 +464,15 @@ form textarea{
   margin-left: 7rem;
 }
 
+
+.card_program_2{
+  margin-bottom: 4rem;
+}
+
+.description_hero{
+  margin-bottom: 2rem;
+}
+
 @media only screen and (max-width: 500px) {
   .logo_texts h1{
     font-size: 7rem;
