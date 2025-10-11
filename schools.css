@@ -14,7 +14,7 @@ html {
 }
 
 body {
-  background-color: #f2ece7;
+  background-color: #F2ECE7;
   /* outline: 1rem solid red; */
   overflow-x: hidden;
 }
@@ -382,6 +382,88 @@ body {
 }
 
 
+.form_div{
+  display: flex;
+  flex-direction: column;
+}
+
+.form_desc{
+  font-size: calc(1200/1440*2.4rem);
+  font-family: Uwords;
+  color: #1A1A1A99;
+  margin-left: 4rem;
+}
+
+.dash_img{
+  width: calc(1200/1440*55rem);
+  height: calc(1200/1440*8rem);
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+  margin-left: 4rem;
+}
+
+.info_desc{
+  font-family: Uwords;
+  color: #1A1A1A99;
+  max-width: 40rem;
+  margin-left: 4rem;
+  margin-bottom: 4rem;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+form input{
+  background-color: #1A1A1A;
+  width: calc(1200/1440*74rem);
+  height: calc(1200/1440*6.2rem);
+  border-radius: 3rem;
+  margin-left: 3rem;
+  text-indent: 2rem;
+  font-size: 1.6rem;
+  color: #FFFFFF;
+}
+
+form textarea{
+  max-width: calc(1200/1440*75rem);
+  height: calc(1200/1440*6.2rem);
+  border-radius: 3rem;
+  background-color: #1A1A1A;
+  margin-left: 3rem;
+  text-indent: 2rem;
+  font-size: 2rem;
+  color: #FFFFFF;
+}
+
+
+.submit_button{
+  width: calc(1200/1440*20rem);
+  height: calc(1200/1440*5rem);
+  border-radius: 3rem;
+  border: none;
+  background-color: #FFFFFF;
+  margin-left: 27rem;
+  font-size: 1.8rem;
+}
+
+.badges{
+  display: flex;
+  gap: 7rem;
+}
+
+.badges img{
+  width: calc(1200/1440*40rem);
+  height: calc(1200/1440*11.8rem);
+  margin-top: 4rem;
+}
+
+.rustore{
+  margin-left: 7rem;
+}
+
 @media only screen and (max-width: 500px) {
   .logo_texts h1{
     font-size: 7rem;
@@ -557,5 +639,48 @@ body {
     margin-top: 7rem;
     max-width: 45rem;
     margin-left: 4rem;
+  }
+
+  .form_desc{
+    font-size: 5.5rem;
+  }
+
+  .dash_img{
+    width: 95%;
+    height: 20rem;
+  }
+
+  .info_desc{
+    font-size: 4rem;
+    max-width: 110rem;
+  }
+
+  form input{
+    width: 95%;
+    height: 10rem;
+    font-size: 4rem;
+    text-indent: 4rem;
+    border-radius: 7rem;
+    outline: none;
+  }
+  form textarea{
+    max-width: 95%;
+    height: 10rem;
+    font-size: 4rem;
+    text-indent: 4rem;
+    border-radius: 7rem;
+    outline: none;
+  }
+
+  .submit_button{
+    width: 35rem;
+    height: 8rem;
+    margin-left: 48rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+  }
+
+  .interaction_in_first{
+    transform: translateY(15rem);
   }
 }
